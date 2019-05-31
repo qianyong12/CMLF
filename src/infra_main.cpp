@@ -46,8 +46,8 @@ int main()
 
     std::fstream file_data;
     std::fstream file_label;
-    file_data.open("E:/Code/python/NNhomework2/dataset.txt");
-    file_label.open("E:/Code/python/NNhomework2/label.txt");
+    file_data.open("./../data/dataset.txt");
+    file_label.open("./../data/label.txt");
     std::vector<std::vector<float>> dataset;
     std::vector<std::vector<int>> label;
     getTime();
